@@ -1,0 +1,14 @@
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\bin\Debug\net8.0\booking-restaurant.exe
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\bin\Debug\net8.0\booking-restaurant.deps.json
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\bin\Debug\net8.0\booking-restaurant.runtimeconfig.json
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\bin\Debug\net8.0\booking-restaurant.dll
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\bin\Debug\net8.0\booking-restaurant.pdb
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.AssemblyInfoInputs.cache
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.AssemblyInfo.cs
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.dll
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\refint\booking-restaurant.dll
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.pdb
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.genruntimeconfig.cache
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\ref\booking-restaurant.dll

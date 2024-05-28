@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "booking-restaurant/1.0.0": {
+        "runtime": {
+          "booking-restaurant.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "booking-restaurant/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
