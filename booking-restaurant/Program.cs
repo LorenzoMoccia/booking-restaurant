@@ -1,4 +1,6 @@
-﻿
+﻿//NEXT STEPS:
+//Implementare la possibilità ad ogni tavolo di ordinare un piatto
+//Implementare la possibilità di vedere l'ordine effettuato da ogni singolo tavolo
 
 
 //MAIN METHOD
@@ -16,10 +18,13 @@ while(true)
     switch (operazione)
     {
         case 1:
+
             Console.WriteLine("Inserisci il numero del tavolo per il quale vuoi prenotare:");
             int numeroTavolo = Convert.ToInt32(Console.ReadLine());
             persona.PrenotaTavolo(numeroTavolo);
+
             break;
+
         case 2:
             break;
     }
@@ -72,6 +77,8 @@ class Ristorante
         //Propietà
         string nome;
         string cognome;
+        int numeroTavoloPrenotato;
+        bool giaPrenotato;
 
 
         //Costruttore
@@ -86,10 +93,17 @@ class Ristorante
         public void PrenotaTavolo(int numeroTavolo)
         {
 
+            numeroTavoloPrenotato = numeroTavolo;
+
             if (TuttiITavoliSonoOccupati())
             {
                 Console.WriteLine("Tutti i tavoli sono occupati!");
                 return;
+            }
+
+            else if (giaPrenotato == true)
+            {
+                Console.WriteLine($"Hai già un tavolo riservato! Numero: {numeroTavoloPrenotato}");
             }
             
             
@@ -102,15 +116,18 @@ class Ristorante
             {
                 int indiceTavoli = numeroTavolo - 1;
 
-                if (tavoli[indiceTavoli].occupato == true)
+                if (tavoli[indiceTavoli].occupato == true && numeroTavolo == numeroTavoloPrenotato)
                 {
-                    Console.WriteLine("Tavolo già occupato!");
+                    Console.WriteLine("Tavolo non disponibile!");
                     Console.WriteLine();
                 }
-                else
+                else if(!giaPrenotato)
                 {
                     Console.WriteLine($"PRENOTAZIONE TAVOLO N° {numeroTavolo} EFFETTUATA CON SUCCESSO!!");
                     Console.WriteLine();
+
+                    numeroTavoloPrenotato = numeroTavolo;
+                    giaPrenotato = true;
                     tavoli[indiceTavoli].occupato = true;
                 }
             }
@@ -128,13 +145,8 @@ class Ristorante
                 return true;
             }
 
-
-
-
         }
     }
-
-
 
     class Tavolo
     {
@@ -149,5 +161,7 @@ class Ristorante
     }
 
 }
+
+
 
 

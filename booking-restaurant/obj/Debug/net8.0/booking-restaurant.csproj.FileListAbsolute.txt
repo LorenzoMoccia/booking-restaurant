@@ -12,3 +12,4 @@ C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\ne
 C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.pdb
 C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.genruntimeconfig.cache
 C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\ref\booking-restaurant.dll
+C:\Users\Lorenzo\source\repos\booking-restaurant\booking-restaurant\obj\Debug\net8.0\booking-restaurant.sourcelink.json
